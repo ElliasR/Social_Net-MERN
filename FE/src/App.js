@@ -16,7 +16,6 @@ import UpdateUser from './user/pages/UpdateUser';
 import UpdateImage from './user/pages/UpdateImage';
 import { AuthContext } from './shared/context/auth-context';
 import { useAuth } from './shared/hooks/auth-hook';
-//import Account from './user/pages/Account';
 import ActiveProfile from './user/pages/ActiveProfile';
 import LifeExpress from './myle/pages/LifeExpress';
 import Welcome from './user/pages/Welcome';

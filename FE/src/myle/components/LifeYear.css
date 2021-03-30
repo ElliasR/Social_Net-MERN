@@ -1,0 +1,54 @@
+.card {
+  border: 1px solid #0008ffa3;
+}
+
+.year-item {
+  margin: auto;
+  padding-bottom: 10px;
+  width: calc(45% - 2rem);
+  min-width: 17.5rem;
+}
+
+.year-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  background: #004b96;
+}
+
+.year-item a:hover,
+.year-item a:active {
+  background: #ffd900;
+}
+
+.year-item__content {
+  padding: 0;
+}
+
+.year-item__ordinal {
+  margin-right: 1rem;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.year-item__info h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #ffb600;
+}
+
+.year-item:hover h2,
+.year-item:active h2,
+.year-item:hover h3,
+.year-item:active h3 {
+  color: #292929;
+}
+
+.year-item__info h3 {
+  margin: 0;
+}

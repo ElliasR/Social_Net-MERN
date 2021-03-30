@@ -14,17 +14,6 @@ const ActiveProfile = () => {
   const auth = useContext(AuthContext);
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
   const userId = auth.userId;
-  //const history = useHistory();
-
-  // const [formState, inputHandler] = useForm(
-  //   {
-  //     account: {
-  //       value: null,
-  //       isValid: false,
-  //     },
-  //   },
-  //   false
-  // );
 
   //------ MODAL ------
   const [showConfirmModal, setShowConfirmModal] = useState(false);

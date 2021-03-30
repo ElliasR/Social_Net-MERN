@@ -1,4 +1,3 @@
-// const { v4: uuidv4 } = require('uuid'); id generator no longer used.
 const fs = require('fs');
 const { validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
@@ -337,7 +336,6 @@ const updateImage = async (req, res, next) => {
   if (!errors.isEmpty()) {
     return next(new HttpError('Invalid inputs, please check your data. ', 422));
   }
-  //const image = req.body.image;
   const userId = req.params.userId;
 
   let dbuser;
@@ -533,7 +531,6 @@ const resendemail = async (req, res, next) => {
     'Check your email (inbox and spam folder) and follow the instruction to reset your password.',
     500 //fake, so error code, but matches the one if no user found with that email, so the boot does not get data on existing emails.
   );
-  // res.status(200).json({ message: 'Account updated (A)' });
   return next(error);
 };
 

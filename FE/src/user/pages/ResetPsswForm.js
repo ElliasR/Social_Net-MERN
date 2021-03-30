@@ -18,8 +18,6 @@ const ResetPsswForm = () => {
     history.push('/auth');
   }
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
-  //const [loadedUser, setLoadedUser] = useState();
-  // const userId = auth.userId;
 
   const [formState, inputHandler] = useForm();
 

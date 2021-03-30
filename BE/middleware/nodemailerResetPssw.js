@@ -13,7 +13,6 @@ const transport = nodemailer.createTransport({
 });
 
 module.exports.sendResetPsswEmail = (name, email, token) => {
-  //console.log('Check');
   transport
     .sendMail({
       from: user,

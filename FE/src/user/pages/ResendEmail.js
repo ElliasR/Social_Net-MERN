@@ -34,7 +34,6 @@ const ResendEmail = () => {
           'Content-Type': 'application/json',
         }
       );
-      //window.history.push('/');
     } catch (err) {}
   };
 

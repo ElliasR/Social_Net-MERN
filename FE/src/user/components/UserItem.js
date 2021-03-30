@@ -10,7 +10,6 @@ const UserItem = (props) => {
     <li className="user-item">
       <Card className="user-item__content">
         <Link to={`/${props.id}/places`}>
-          {' '}
           {/* Dynamic expression, hence the curly braces. Backtick to create a template literal (string where to inject values ) */}
           <div className="user-item__image">
             <Avatar

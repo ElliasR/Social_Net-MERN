@@ -5,13 +5,13 @@
 # Game / Life ONLY>>>>>>>>>> Public/
 #--> BE
 game*
-life*
-place*
+#life*
+#place*
 #--> FE
 games/*
 image/*
-myle/*
-places/*
+#myle/*
+#places/*
 # Game / Life ONLY^^^^^^^^^^^ Public/
 
 

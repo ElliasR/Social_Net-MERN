@@ -34,7 +34,6 @@ const ResetPssw = () => {
           'Content-Type': 'application/json',
         }
       );
-      //window.history.push('/');
     } catch (err) {}
   };
 

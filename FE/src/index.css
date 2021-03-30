@@ -10,11 +10,6 @@ html {
 
 body {
   margin: 0;
-  /* background: #4d4d4d; */
-  /* background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/qbkls.png'); */
-  /* background-image: url('../src/shared/util/uploads/floor-tile.png'); */
-  /* background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/fancy-cushion.png'); */
-  /* background-image: url('https://www.toptal.com//designers/subtlepatterns/patterns/intersection.png'); */
   background-image: url('./image/grey_wash_wall.png');
 }
 
